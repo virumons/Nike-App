@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.a-tag a{
+  padding: 10px;
+}
+.a-tag a:hover{
+  color: rgb(211, 211, 27), 
+}
+#gifts
+{
+  font-family: 'Anton', sans-serif;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
