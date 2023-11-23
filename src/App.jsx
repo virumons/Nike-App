@@ -128,8 +128,8 @@ export default function App() {
       <img src={logo} className='w-[250px] p-[0px] m-[0px] '/>
       </div>
       <div className='flex flex-col justify-center items-center'>
-        <h1 className=' text-[70px] font-extrabold' id='gifts'>GIFTS THAT MOVE YOU</h1>
-        <h1 className='text-[25px]'>This year's GIFTS. Next year's greatness</h1>
+        <h1 className=' text-[45px] sm:text-[70px] font-extrabold' id='gifts'>GIFTS THAT MOVE YOU</h1>
+        <h1 className='text-[20px] sm:text-[25px]'>This year's GIFTS. Next year's greatness</h1>
         <div className='flex flex-row justify-center items-center'>
           <button className='bg-[#171717] text-white text-[20px] font-medium px-[3rem] py-[1rem] rounded-2xl m-2'>shop</button>
           <button className='bg-[#171717] text-white text-[20px] font-medium px-[3rem] py-[1rem] rounded-2xl m-2'>Explore</button>
