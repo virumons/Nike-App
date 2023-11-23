@@ -7,7 +7,7 @@ const CardData = ({Data}) => {
   return (
     
           <div className='flex flex-row justify-center items-center '>
-            <div className='flex flex-col justify-center items-center mx-[10px] hover:drop-shadow-xl'>
+            <div className='flex flex-col justify-center items-center mx-[10px] my-[10px] hover:drop-shadow-xl'>
               <img src={Data.img} className='w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] rounded-tl-3xl rounded-tr-3xl' />
               <div className='py-[2rem] rounded-br-3xl rounded-bl-3xl bg-[#f4f4f4] w-[350px] sm:w-[450px] flex flex-col justify-center items-center '>
                 <h1 className='text-[20px] font-normal'>Nike Sports collections</h1>
